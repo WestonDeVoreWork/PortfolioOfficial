@@ -14,10 +14,10 @@ const ContactMe = () => {
             <br />
             <h4>Contact Me!</h4>
             {/* <label for="full-name" className="form-label">Full Name</label> */}
-            <input type="text" class="form-control-md" name="name" id="full-name" placeholder="First and Last" required="" />
+            <input type="text" class="form-control-lg" name="name" id="full-name" placeholder="First and Last" required="" />
             <br />
             {/* <label for="emailAddress" className="form-label">Email Address</label> */}
-            <input type="email" name="_replyto" id="emailAddress" class="form-control-md" placeholder="email@domain.tld" required="" />
+            <input type="email" name="_replyto" id="emailAddress" class="form-control-lg" placeholder="email@domain.tld" required="" />
             <br />
             {/* <label for="message" className="form-label">Message</label> */}
             <textarea rows="1" name="message" id="message" class="form-control-lg" placeholder="Your Message." required="" />

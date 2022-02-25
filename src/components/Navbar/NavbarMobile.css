@@ -1,0 +1,21 @@
+.mainDivNavMob {
+    background-color: #ff4f44;
+
+}
+
+.mainDivNavMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font: 15px "Roboto";
+    /* justify-content:space-around  */
+}
+
+.mainDivNavMob a:hover {
+    color: black;
+    text-decoration: none;
+    font: 20px "Roboto";
+}
+
+.navbar-nav {
+    margin-left: auto;
+}

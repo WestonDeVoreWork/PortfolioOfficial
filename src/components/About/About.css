@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.TextAboutMe{
+#TextAboutMe{
     font: 64px "Roboto";   
 }
 
@@ -19,23 +19,27 @@
 
 .OutsideCodingTextDiv {
     width: 40%;
+    background-color: lightgray;
+    opacity: 75%;
 }
 
 .AsADeveloperTextDiv {
     width: 40%;
+    background-color: lightgray;
+    opacity: 75%;
     
 }
 
 .AsADeveloperMainText {
-    background-color: lightgray;
-    opacity: 75%;
+    /* background-color: lightgray;
+    opacity: 75%; */
     font: 24px "Roboto";
 }
 
 
 .OutsideCodingMainText {
-    background-color: lightgray;
-    opacity: 75%;
+    /* background-color: lightgray;
+    opacity: 75%; */
     font: 24px "Roboto";
 }
 
@@ -48,4 +52,9 @@
     background-color: lightgray;
     opacity: 85%;
     font: 36px "Roboto";
+}
+
+#paragraphText {
+    margin-left: 20px ;
+    margin-right: 20px ;
 }
