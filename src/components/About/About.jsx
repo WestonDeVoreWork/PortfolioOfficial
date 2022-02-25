@@ -6,7 +6,7 @@ import "./About.css"
 const About = () => {
     
     return (
-        <div className="mainDivAbout">
+        <div className="mainDivAbout container-fluid">
             <Navbar />
             <h1 className="text-center pb-3" id="TextAboutMe">ABOUT ME</h1>
             

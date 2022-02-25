@@ -3,11 +3,16 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
+    /* height: 100vh; */
+    /* position: static; */
+    background-attachment:fixed;
 }
 
 #TextAboutMe{
-    font: 64px "Roboto";   
+    font: 64px "Roboto";
+    color: whitesmoke;
+    margin: 45px;
 }
 
 .AllTextMainDiv {
@@ -57,4 +62,8 @@
 #paragraphText {
     margin-left: 20px ;
     margin-right: 20px ;
+}
+
+.mainDivAbout {
+
 }

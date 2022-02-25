@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className="col">
                     
                     <div className="card" style={{"width": "18rem"}}>
-                        <a href='https://gwtd.herokuapp.com/'>
+                        <a href='https://gwtd.herokuapp.com/' target={"_blank"}>
                             <img src="https://i.ibb.co/gSLzT34/Lemon-Lot-Screen-Shot.jpg" alt="Lemon-Lot-Screen-Shot" className="card-img-top" />
                             <div className="card-body">
                             <h5 className="card-title">Lemon Lot</h5>
@@ -30,7 +30,7 @@ const Projects = () => {
                 <div className="col">
 
                     <div className="card" style={{"width": "18rem"}}>
-                    <a href='https://dj-react-click-n-cook.herokuapp.com/login'>
+                    <a href='https://dj-react-click-n-cook.herokuapp.com/login' target={"_blank"}>
                         <img src="https://i.ibb.co/BcwPycw/Click-NCook.jpg" alt="Click-NCook" className="card-img-top" />
                         <div className="card-body">
                           <h5 className="card-title">Click N Cook!</h5>
@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="col">
 
                     <div className="card" style={{"width": "18rem"}}>
-                    <a href='https://westondevorework.github.io/APIChallenge/'>
+                    <a href='https://westondevorework.github.io/APIChallenge/' target={"_blank"}>
                         <img src="https://i.ibb.co/M6bFG8X/First-Api-Challenge.jpg" alt="First-Api-Challenge" className="card-img-top" />
                         <div className="card-body">
                           <h5 className="card-title">Cat Facts API</h5>

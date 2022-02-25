@@ -13,6 +13,7 @@ const MainPage = () => {
             <Link to="/projects">
                 <h1 className='MainPageH1'>WESTON DEVORE</h1>
                 <h4 className='MainPageH4'>WEB DEVELOPER</h4>
+                <p>click to learn more</p>
             </Link>
         </div>
     )

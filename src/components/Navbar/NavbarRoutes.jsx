@@ -29,7 +29,6 @@ const NavbarRoutes = () => {
                 <Route path='/' element={<MainPage />}></Route>
                 <Route path='/about' element={<About />}></Route>
                 <Route path='/projects' element={<Projects />}></Route>
-                <Route path='/contact' element={<ContactMe />}></Route>
 
             </Routes>
             </div>
