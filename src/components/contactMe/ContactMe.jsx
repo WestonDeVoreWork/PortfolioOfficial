@@ -1,29 +1,37 @@
-const ContactMe = () => {
-    <div>
-        <p>Contact ME!</p>
+import React from 'react';
+import "./contactMe.css"
 
-        <div class="contactMe" id="contact">
+const ContactMe = () => {
+    
+    return (
+        <div className='mainDivContactMe'>
+        
+        <div className="contactMe" id="contact">
 
         <div className="emailForm">
         <form id="FormIdemailForm" name="simple-contact-form" action="https://formspree.io/f/xvodyoga" method="post">
             <fieldset id="emailForm">
-
-            <label for="full-name" class="form-label">Full Name</label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="" />
-
-            <label for="emailAddress" class="form-label">Email Address</label>
-            <input type="email" name="_replyto" id="emailAddress" placeholder="email@domain.tld" required="" />
-
-            <label for="message" class="form-label">Message</label>
-            <textarea rows="1" name="message" id="message" placeholder="Your Message." required="" />
+            <br />
+            <h4>Contact Me!</h4>
+            {/* <label for="full-name" className="form-label">Full Name</label> */}
+            <input type="text" class="form-control-md" name="name" id="full-name" placeholder="First and Last" required="" />
+            <br />
+            {/* <label for="emailAddress" className="form-label">Email Address</label> */}
+            <input type="email" name="_replyto" id="emailAddress" class="form-control-md" placeholder="email@domain.tld" required="" />
+            <br />
+            {/* <label for="message" className="form-label">Message</label> */}
+            <textarea rows="1" name="message" id="message" class="form-control-lg" placeholder="Your Message." required="" />
             
             </fieldset>
         
-            <input type="submit" value="Submit" />
+            <input type="submit" class="btn btn-primary" value="Submit" />
         </form>
         </div>
         </div>
+
     </div>   
+    )
+    
 }
 
 export default ContactMe;

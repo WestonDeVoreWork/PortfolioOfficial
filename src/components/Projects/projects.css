@@ -1,0 +1,20 @@
+.mainDivProjects {
+    background-image: url(../../assets/Sunset.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#TextPreviousWorks {
+    font: 64px "Roboto";
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}

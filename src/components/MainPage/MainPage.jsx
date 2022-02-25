@@ -1,12 +1,19 @@
+import {
+    Link,
+} from 'react-router-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./MainPage.css"
+
 
 const MainPage = () => {
     
     return (
-        <div className="mainDiv">
-            <h1>Weston DeVore</h1>
-            <h4>Web Developer</h4>
-            <p>"Nobody's a natural. You work hard to get good and then work to get better." - Banoc Bookz</p>
+        <div className="mainDivMainPage">
+            <Link to="/projects">
+                <h1 className='MainPageH1'>WESTON DEVORE</h1>
+                <h4 className='MainPageH4'>WEB DEVELOPER</h4>
+            </Link>
         </div>
     )
 }

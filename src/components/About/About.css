@@ -1,0 +1,51 @@
+.mainDivAbout {
+    background-image: url(../../assets/SunsetByWater.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.TextAboutMe{
+    font: 64px "Roboto";   
+}
+
+.AllTextMainDiv {
+    margin-left: 168px;
+    margin-right: 168px;
+    display: flex;
+    justify-content:space-around 
+}
+
+.OutsideCodingTextDiv {
+    width: 40%;
+}
+
+.AsADeveloperTextDiv {
+    width: 40%;
+    
+}
+
+.AsADeveloperMainText {
+    background-color: lightgray;
+    opacity: 75%;
+    font: 24px "Roboto";
+}
+
+
+.OutsideCodingMainText {
+    background-color: lightgray;
+    opacity: 75%;
+    font: 24px "Roboto";
+}
+
+.OutsideCodingTitle {
+    background-color: lightgray;
+    opacity: 85%;
+    font: 36px "Roboto";
+}
+.AsADeveloperTitle {
+    background-color: lightgray;
+    opacity: 85%;
+    font: 36px "Roboto";
+}
